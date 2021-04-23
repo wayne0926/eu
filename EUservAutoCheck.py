@@ -9,8 +9,8 @@ USERNAME = "${{ secrets.USERNAME }}"
 PASSWORD = "${{ secrets.PASSWORD }}"
 # 代理设置
 PROXIES = {
-    "http": "http://127.0.0.1:7890",
-    "https": "http://127.0.0.1:7890"
+    "http": "http://127.0.0.1:80",
+    "https": "http://127.0.0.1:80"
 }
 
 
