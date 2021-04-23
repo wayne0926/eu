@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # 账号信息
-USERNAME = "${{ secrets.USERNAME }}"
-PASSWORD = "${{ secrets.PASSWORD }}"
+USERNAME = os.environ.get('USERNAME')
+PASSWORD = os.environ.get('PASSWORD')
 # 代理设置
 PROXIES = {
     "http": "http://127.0.0.1:80",
