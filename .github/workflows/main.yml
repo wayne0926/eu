@@ -35,3 +35,6 @@ jobs:
         run: |
           python EUservAutoCheck.py
           cat EUserLog.txt
+        env: 
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
